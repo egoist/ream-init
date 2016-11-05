@@ -1,0 +1,43 @@
+{
+  "name": "ream-init",
+  "version": "0.0.0",
+  "description": "Generator for ream framework.",
+  "license": "MIT",
+  "repository": "egoist/ream-init",
+  "author": {
+    "name": "EGOIST",
+    "email": "0x142857@gmail.com",
+    "url": "github.com/egoist"
+  },
+  "engines": {
+    "node": ">=4"
+  },
+  "scripts": {
+    "test": "jest && eslint *.js"
+  },
+  "files": [
+    "cli.js",
+    "template"
+  ],
+  "bin": "cli.js",
+  "keywords": [
+    ""
+  ],
+  "devDependencies": {
+    "eslint": "latest",
+    "eslint-config-egoist": "latest",
+    "jest-cli": "^15.1.1"
+  },
+  "jest": {
+    "testEnvironment": "node"
+  },
+  "eslintConfig": {
+    "extends": "egoist/esnext"
+  },
+  "dependencies": {
+    "cac": "^3.0.3",
+    "graceful-copy": "^1.0.1",
+    "log-symbols": "^1.0.2",
+    "path-exists": "^3.0.0"
+  }
+}
