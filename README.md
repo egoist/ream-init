@@ -5,36 +5,14 @@
 ## Install
 
 ```bash
-$ npm install --save ream-init
+$ npm install -g ream-init
 ```
 
 ## Usage
 
-```js
-const reamInit = require('ream-init')
-
-reamInit('unicorns')
-//=> 'unicorns & rainbows'
+```bash
+ream-init my-project
 ```
-
-## API
-
-### reamInit(input, [options])
-
-#### input
-
-Type: `string`
-
-Lorem ipsum.
-
-#### options
-
-##### foo
-
-Type: `boolean`  
-Default: `false`
-
-Lorem ipsum.
 
 ## Contributing
 
