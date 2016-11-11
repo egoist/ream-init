@@ -8,6 +8,8 @@ const logSymbols = require('log-symbols')
 
 const cli = cac()
 
+cli.usage(`${chalk.yellow('ream-init')} <project-name> [options]`)
+
 cli.command('*', (input, flags) => {
   const projectName = input[0]
   if (!projectName) {

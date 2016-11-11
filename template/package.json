@@ -4,9 +4,11 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "dev": "rem"
+    "dev": "ream",
+    "build": "ream build",
+    "start": "ream start"
   },
   "dependencies": {
-    "ream": "egoist/ream"
+    "ream": "latest"
   }
 }
