@@ -26,7 +26,10 @@ cli.command('*', (input, flags) => {
       return copy(path.join(__dirname, 'template'), dest, {
         data: {
           name: projectName
-        }
+        },
+        skipInterpolation: [
+          '**/*.vue'
+        ]
       })
     })
     .then(() => {
